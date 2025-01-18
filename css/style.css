@@ -1,130 +1,141 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
-}
-a {
-  text-decoration: none;
-}
-ul {
-list-style-type: none;
+  background-color: #ffffff;
 }
 
+/*header*/
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
 
-.navig {
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 .logo-link {
-font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
- line-height: 1.17;
- letter-spacing: 0.03em;
- text-transform: uppercase;
- color:#4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo {
+  padding: 24px 0px;
+  margin-right: 76px;
 }
 .span-header {
   color: #2e2f42;
 }
-.header-list {
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .heder-list-link {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0px;
+  display: block;
 }
 .heder-list-link:hover,
 .heder-list-link:focus {
-color: #404bbf;  
+  color: #404bbf;
 }
-
-
 
 .address {
-font-style: normal;
-}
-.address-list {
+  font-style: normal;
+  margin-left: auto;
 }
 .address-link {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:  #434455;
+  display: block;
+  padding: 24px 0px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .address-list .address-link:hover,
 .address-list .address-link:focus {
-color: #404bbf;
+  color: #404bbf;
 }
-
 
 .section {
-background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 .head-title {
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .head-button {
-background-color: #4D5AE5;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #ffffff;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 .section .head-button:hover,
 .section .head-button:focus {
-background-color: #404BBF;
- cursor: pointer;
+  background-color: #404bbf;
+  cursor: pointer;
 }
-
-
 
 .section-title {
 }
 .section-list {
 }
 .section-subtitle {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .section-text {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-
-
 
 .section-three {
-background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 .section-title {
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .section-item {
-background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .section-subtitle {
 }
 .section-text {
 }
-
 
 .section-title {
 }
@@ -133,18 +144,50 @@ background-color: #FFFFFF;
 .section-text {
 }
 
-
-
 .footer {
-background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 .logo-link {
 }
 .span-footer {
-color: #f4f4fd;
+  color: #f4f4fd;
 }
 .footer-text {
-line-height: 1.5;
-color: #F4F4FD;
-letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+/*reset*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0%;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+/*common*/
+
+.container {
+  max-width: 1158px;
+  padding: 0 15;
+  margin: auto;
+}
+img {
+  display: block;
 }
