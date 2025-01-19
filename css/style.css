@@ -116,6 +116,9 @@ ol {
   margin: 0;
   padding-left: 0;
 }
+a {
+  text-decoration: none;
+}
 
 /*section-title*/
 
@@ -163,7 +166,13 @@ ol {
 .features-section {
   padding: 120px 0;
 }
+
+.section-features-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .section-title {
+  gap: 24px;
 }
 .section-list {
   display: flex;
@@ -178,6 +187,9 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.section-subtitle-distance {
+  margin-bottom: 8px;
 }
 .section-text {
   font-size: 16px;
@@ -260,11 +272,4 @@ ol {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-
-a {
-  text-decoration: none;
-}
-ul {
-  list-style-type: none;
 }
