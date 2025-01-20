@@ -123,13 +123,20 @@ a {
 /*section-title*/
 
 .section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #2e2f42;
   height: 600px;
   padding: 188px 0;
 }
 .section-container {
+  justify-content: center;
 }
+
 .head-title {
+  margin: 0 0 48px;
   max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
@@ -141,6 +148,7 @@ a {
   text-decoration: underline;
 }
 .head-button {
+  margin: 0 auto;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -166,22 +174,25 @@ a {
 .features-section {
   padding: 120px 0;
 }
-
-.section-features-item {
-  width: calc((100% - 72px) / 4);
+.section-list {
+  display: flex;
+  gap: 24px;
 }
 
 .section-title {
   gap: 24px;
 }
+
 .section-list {
   display: flex;
+  gap: 24px;
 }
+
 .section-features-item {
   width: calc((100% - 72px) / 4);
 }
+
 .section-subtitle {
-  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -226,7 +237,8 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 .section-subtitle {
-  margin-bottom: 72px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .section-text {
   text-align: center;
