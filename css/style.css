@@ -12,7 +12,6 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  padding: 0 15px;
 }
 
 .header-nav {
@@ -80,7 +79,7 @@ body {
 
 .container {
   max-width: 1158px;
-  padding: 0 15;
+  padding: 0 15px;
   margin: auto;
 }
 img {
@@ -123,20 +122,12 @@ a {
 /*section-title*/
 
 .section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: #2e2f42;
-  height: 600px;
   padding: 188px 0;
-}
-.section-container {
-  justify-content: center;
 }
 
 .head-title {
-  margin: 0 0 48px;
+  margin: 0 auto 48px;
   max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
@@ -210,6 +201,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-subtitle-distance {
   margin-bottom: 8px;
@@ -233,6 +225,7 @@ a {
 }
 .employer-container {
   padding: 32px 0;
+  text-align: center;
 }
 .section-title {
   margin-bottom: 72px;
@@ -247,13 +240,6 @@ a {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-}
-.section-subtitle {
-  text-align: center;
-  margin-bottom: 8px;
-}
-.section-text {
-  text-align: center;
 }
 
 /*portfolio-section*/
@@ -285,7 +271,7 @@ a {
   padding: 100px 0;
   background-color: #2e2f42;
 }
-.logo-link {
+.link-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -296,4 +282,5 @@ a {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
